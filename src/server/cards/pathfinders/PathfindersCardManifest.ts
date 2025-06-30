@@ -39,6 +39,7 @@ import {DysonScreens} from './DysonScreens';
 import {EarlyExpedition} from './EarlyExpedition';
 import {EconomicEspionage} from './EconomicEspionage';
 import {EconomicHelp} from './EconomicHelp';
+import {ElonLabs} from './ElonLabs';
 import {ExpeditionToTheSurfaceVenus} from './ExpeditionToTheSurfaceVenus';
 import {ExperiencedMartians} from './ExperiencedMartians';
 import {FlatMarsTheory} from './FlatMarsTheory';
@@ -219,6 +220,7 @@ export const PATHFINDERS_CARD_MANIFEST = new ModuleManifest({
     [CardName.MIND_SET_MARS]: {Factory: MindSetMars, compatibility: 'turmoil'},
     [CardName.HABITAT_MARTE]: {Factory: HabitatMarte, compatibility: 'pathfinders'},
     [CardName.ADHAI_HIGH_ORBIT_CONSTRUCTIONS]: {Factory: AdhaiHighOrbitConstructions, compatibility: 'colonies'},
+    [CardName.ELON_LABS]: {Factory: ElonLabs},
   },
   preludeCards: {
     [CardName.VENUS_FIRST]: {Factory: VenusFirst, compatibility: 'venus'},

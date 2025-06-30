@@ -25,7 +25,7 @@ export class ElonLabs extends CorporationCard implements ICorporationCard {
         description: 'You start with 40 M€ and 2 M€ production.',
         renderData: CardRenderer.builder((b) => {
           b.br;
-          b.production((pb) => pb.megacredits(1)).nbsp.megacredits(40);
+          b.production((pb) => pb.megacredits(2)).nbsp.megacredits(40);
           b.corpBox('effect', (ce) => {
             ce.effect('When you play a card with requirements, add a NON-SCIENCE resource to any active card.', (eb) => {
               eb.cards(1, {secondaryTag: AltSecondaryTag.REQ}).startEffect.wild(1);
