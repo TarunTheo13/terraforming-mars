@@ -48,7 +48,7 @@ export class ElonLabs extends CorporationCard implements ICorporationCard {
               return card.resourceType !== undefined && card.resourceType !== CardResource.SCIENCE;
             },
           },
-        )
+        ),
       );
     }
   }
